@@ -1,13 +1,20 @@
-
-import "./App.css"
-import Title from "./Title.jsx";
+import "./App.css";
 import ProductTab from "./ProductTab.jsx";
+// import MsgBox from"./MsgBox.jsx";
 
-import Product from"./Product.jsx"
 
 
 function App() {
-  return <ProductTab/>;
+  return (
+    <>
+          <h1>Blockbuster Deals| Shop Now</h1>
+
+
+    <ProductTab/>
+  
+    </>
+  );
+    
 }
 
 export default App;

@@ -1,8 +1,11 @@
 .Product {
-  /* display:  */
-    border:1px solid black;
+  /* display: flex; */
+    border:1px solid blaack;
 
     border-radius:24px;
     margin-bottom: 15px;
     padding:0 5px 0 5px ;
+    margin-left:15px ;
+    width:180px ;
+    height: 150px;
 }
